@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diorama</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: skyblue;
+    }
+    .cloud {
+        position: absolute;
+        top: 50px;
+        width: 150px;
+        height: 80px;
+        background-image: url('https://pngimg.com/uploads/cloud/cloud_PNG16.png');
+        background-size: cover;
+        animation: moveCloud 20s linear infinite;
+    }
+    @keyframes moveCloud {
+        0% {
+            left: -200px;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="cloud"></div>
+    <div class="cloud" style="top: 150px; animation-duration: 25s;"></div>
+    <div class="cloud" style="top: 250px; animation-duration: 30s;"></div>
+</body>
+</html>
