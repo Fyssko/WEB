@@ -1,11 +1,8 @@
-/* Proměnné */
-
 $primary-color: #007bff;
 $secondary-color: #6c757d;
 $light-gray: #f8f9fa;
 $dark-gray: #343a40;
 
-/* Obecné styly */
 
 body {
   font-family: sans-serif;
@@ -28,8 +25,6 @@ img {
   height: auto;
 }
 
-/* Záhlaví */
-
 header {
   background-color: $primary-color;
   color: white;
@@ -47,7 +42,6 @@ nav li {
   margin-right: 20px;
 }
 
-/* Hlavní část */
 
 main {
   padding: 20px;
