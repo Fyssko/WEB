@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Příklad komplexní stránky s SASS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nadpis stránky</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Domů</a></li>
+        <li><a href="#">O nás</a></li>
+        <li><a href="#">Služby</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-text">
+        <h2>Vítejte na našem webu!</h2>
+        <p>Nabízíme širokou škálu služeb...</p>
+        <a href="#" class="btn">Více informací</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>O nás</h2>
+      <p>Jsme...</p>
+      <p>Nabízíme...</p>
+    </section>
+
+    <section class="services">
+      <h2>Služby</h2>
+      <div class="service">
+        <h3>Název služby 1</h3>
+        <p>Popis služby 1...</p>
+      </div>
+      <div class="service">
+        <h3>Název služby 2</h3>
+        <p>Popis služby 2...</p>
+      </div>
+      <div class="service">
+        <h3>Název služby 3</h3>
+        <p>Popis služby 3...</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Kontakt</h2>
+      <p>...</p>
+      <form action="#">
+        <label for="name">Jméno:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Zpráva:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Odeslat</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Příkladová firma</p>
+  </footer>
+</body>
+</html>
+

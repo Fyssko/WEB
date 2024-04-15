@@ -1,0 +1,54 @@
+/* Proměnné */
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$light-gray: #f8f9fa;
+$dark-gray: #343a40;
+
+/* Obecné styly */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Záhlaví */
+
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Hlavní část */
+
+main {
+  padding: 20px;
+}
